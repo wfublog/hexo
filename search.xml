@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/04/hello-world.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo 架站流程踩坑紀錄(3)﹍使用後台 Hexo Admin 撰寫文章</title>
+    <url>/2024/04/wfu-blog-test.html</url>
+    <content><![CDATA[<p>上一篇也大致提到了如何建立 md 檔的格式，但未免不夠專業，因為一般部落格後台都會有文章編輯器，所以本篇會說明如何安裝本地後台界面，及如何編輯文章的操作。</p>
+<span id="more"></span>
+
+<h3>一、安裝 Hexo Admin</h3>
+
+<p>首先介紹安裝最簡單的本地後台，也就是說不需要網路，在自己電腦就能編輯文章。可參考這篇教學「<a href="https://ed521.github.io/2019/08/hexo-admin/" target="_blank">使用 hexo-admin 後台管理工具</a>」的流程：</p>
+<p><b><span class="green">1. 安裝外掛</span></b></p>
+<p>在 Hexo 專案資料夾執行以下指令安裝 Hexo Admin 後台外掛：</p>
+<p><code>npm install hexo-admin --save</code></p>
+<p><img src="/%5Cimages%5Chexo-admin-edit-post-1.png%5C" alt="upload successful"></p>
+<p><img src="/images/hexo-admin-edit-post-2.png" alt="upload successful"></p>
+]]></content>
+      <categories>
+        <category>架站</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+</search>
